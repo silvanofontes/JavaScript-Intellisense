@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link rel="icon" type="image/png" href="@Url.Content("~/content/favicon.ico")" />
+    <!--[if IE]>
+    <link rel="shortcut icon" href="@Url.Content("~/content/favicon.ico")" type="image/vnd.microsoft.icon" />
+    <![endif]-->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+</head>
+<body>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - <a href="https://github.com/silvanfontes/JavaScript-Intellisense" target="_blank">Javascript-Intellisense</a> | by <a href="http://about.me/SilvanoFontes" target="_blank">Silvano Fontes</a></p>
+        </footer>
+    </div>
+
+</body>
+</html>

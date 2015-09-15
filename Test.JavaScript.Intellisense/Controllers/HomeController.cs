@@ -12,5 +12,11 @@ namespace JavaScript_Intellisense.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public JsonResult SelectTest()
+        {
+            return Json(new object());
+        }
     }
 }
